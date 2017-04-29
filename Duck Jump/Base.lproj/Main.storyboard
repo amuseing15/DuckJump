@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13F1112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k5f-SC-R87"/>
+                        <viewControllerLayoutGuide type="bottom" id="UQM-Jj-2Jd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SkateBG2fade.png" translatesAutoresizingMaskIntoConstraints="NO" id="eUM-Ar-xdz">
+                                <rect key="frame" x="-7" y="-1" width="331" height="578"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="ddO-PN-IXS">
+                                <rect key="frame" x="-64" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="Svt-On-lmG">
+                                <rect key="frame" x="11" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="kB4-w9-kDa">
+                                <rect key="frame" x="86" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="cIe-5n-oyo">
+                                <rect key="frame" x="161" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="e6P-gJ-ab1">
+                                <rect key="frame" x="186" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="2ur-lg-tOm">
+                                <rect key="frame" x="211" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="zCA-MC-PEh">
+                                <rect key="frame" x="236" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BrickWall.png" translatesAutoresizingMaskIntoConstraints="NO" id="HXM-eP-5JB">
+                                <rect key="frame" x="286" y="408" width="120" height="160"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TrashCan.png" translatesAutoresizingMaskIntoConstraints="NO" id="oLN-Zf-WBw">
+                                <rect key="frame" x="95" y="329" width="75" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXF-LF-Fl2" userLabel="Play Button - Button">
+                                <rect key="frame" x="120" y="236" width="80" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Button" image="PlayButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressPlay:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dgK-aY-ydN"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cow.png" translatesAutoresizingMaskIntoConstraints="NO" id="FzN-we-903">
+                                <rect key="frame" x="161" y="331" width="75" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lda-ww-EBC">
+                                <rect key="frame" x="108" y="58" width="101" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="40"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Trampoline.png" translatesAutoresizingMaskIntoConstraints="NO" id="Smb-AY-yDR">
+                                <rect key="frame" x="208" y="377" width="93" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LightningBolt.png" translatesAutoresizingMaskIntoConstraints="NO" id="9op-ce-dac">
+                                <rect key="frame" x="217" y="93" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHx-5L-TEH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="K5r-Rb-Lbi"/>
+                                </connections>
+                            </adBannerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dg-wK-wF7" userLabel="HS Button - Button">
+                                <rect key="frame" x="40" y="417" width="80" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="HighScoreButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressHighScores:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EcE-2H-3Mt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70a-he-dF7" userLabel="Settings Button - Button">
+                                <rect key="frame" x="200" y="417" width="80" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="SettingsButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressSettings:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="u9m-RX-Gin"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiW-mg-cW3">
+                                <rect key="frame" x="120" y="417" width="80" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="BackButton.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressBack:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JMR-8x-ysx"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NewBest.png" translatesAutoresizingMaskIntoConstraints="NO" id="bK1-Ip-65U">
+                                <rect key="frame" x="85" y="141" width="150" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3yY-CN-Oxd">
+                                <rect key="frame" x="167" y="201" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <connections>
+                                    <action selector="pressSoundSwitch:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G7R-l7-ctJ"/>
+                                </connections>
+                            </switch>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Y1w-4C-VHE">
+                                <rect key="frame" x="104" y="186" width="55" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DuckJump2.png" translatesAutoresizingMaskIntoConstraints="NO" id="25G-sh-Ctf">
+                                <rect key="frame" x="32" y="93" width="257" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Duck.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zf3-ZX-g9g">
+                                <rect key="frame" x="31" y="319" width="83" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="BackButton" destination="ZiW-mg-cW3" id="eZ8-xX-JZC"/>
+                        <outlet property="BrickWall1" destination="ddO-PN-IXS" id="4Od-NJ-LhQ"/>
+                        <outlet property="BrickWall2" destination="Svt-On-lmG" id="EaW-NR-ktq"/>
+                        <outlet property="BrickWall3" destination="kB4-w9-kDa" id="oGb-6L-IOt"/>
+                        <outlet property="BrickWall4" destination="cIe-5n-oyo" id="jix-ee-qIq"/>
+                        <outlet property="BrickWall5" destination="e6P-gJ-ab1" id="sO3-8l-cAV"/>
+                        <outlet property="BrickWall6" destination="2ur-lg-tOm" id="cjK-si-Qtr"/>
+                        <outlet property="BrickWall7" destination="zCA-MC-PEh" id="TuV-G5-AbK"/>
+                        <outlet property="BrickWall8" destination="HXM-eP-5JB" id="g5D-sX-6BQ"/>
+                        <outlet property="Cow" destination="FzN-we-903" id="MCp-be-TYg"/>
+                        <outlet property="DuckJumpLogo" destination="25G-sh-Ctf" id="hlG-La-tUM"/>
+                        <outlet property="DuckSkater" destination="Zf3-ZX-g9g" id="t94-52-5tZ"/>
+                        <outlet property="HighScoreButton" destination="5Dg-wK-wF7" id="Tbn-ZX-76k"/>
+                        <outlet property="LightningBolt" destination="9op-ce-dac" id="O9p-SK-fvW"/>
+                        <outlet property="NewHighScore" destination="bK1-Ip-65U" id="X4E-4d-1gd"/>
+                        <outlet property="PlayButton" destination="mXF-LF-Fl2" id="yBl-U3-VNY"/>
+                        <outlet property="ScoreLabel" destination="Lda-ww-EBC" id="asB-TA-mmH"/>
+                        <outlet property="SettingsButton" destination="70a-he-dF7" id="R0V-JF-QA5"/>
+                        <outlet property="SkateBG" destination="eUM-Ar-xdz" id="8kJ-h3-J8b"/>
+                        <outlet property="Trampoline" destination="Smb-AY-yDR" id="n7G-yH-714"/>
+                        <outlet property="TrashCan" destination="oLN-Zf-WBw" id="kiH-gm-bmj"/>
+                        <outlet property="soundIcon" destination="Y1w-4C-VHE" id="g3R-SJ-DTl"/>
+                        <outlet property="soundSwitch" destination="3yY-CN-Oxd" id="P55-E7-uhP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackButton.png" width="293" height="151"/>
+        <image name="BrickWall.png" width="836" height="603"/>
+        <image name="Cow.png" width="348" height="329"/>
+        <image name="Duck.png" width="553" height="596"/>
+        <image name="DuckJump2.png" width="761" height="188"/>
+        <image name="HighScoreButton.png" width="293" height="151"/>
+        <image name="LightningBolt.png" width="150" height="150"/>
+        <image name="NewBest.png" width="665" height="178"/>
+        <image name="PlayButton.png" width="293" height="152"/>
+        <image name="SettingsButton.png" width="293" height="151"/>
+        <image name="SkateBG2fade.png" width="489" height="867"/>
+        <image name="SoundIcon.png" width="500" height="500"/>
+        <image name="Trampoline.png" width="854" height="221"/>
+        <image name="TrashCan.png" width="383" height="502"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2380CC8C18C7E68C00E5F90F /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CC8B18C7E68C00E5F90F /* PlayButton.png */; };
+		2380CC9A18C8348900E5F90F /* SettingsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CC9918C8348900E5F90F /* SettingsButton.png */; };
+		2380CC9C18C8355400E5F90F /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CC9B18C8355400E5F90F /* BackButton.png */; };
+		2380CC9E18C84AD600E5F90F /* SoundIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CC9D18C84AD600E5F90F /* SoundIcon.png */; };
+		2380CCA618C9502700E5F90F /* DuckJump.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CCA518C9502700E5F90F /* DuckJump.png */; };
+		2380CCAC18C99F6600E5F90F /* DuckJump2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CCAB18C99F6600E5F90F /* DuckJump2.png */; };
+		2380CCAE18CBEA6200E5F90F /* NewBest.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CCAD18CBEA6200E5F90F /* NewBest.png */; };
+		2380CCB018CD47C800E5F90F /* HighScoreButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2380CCAF18CD47C800E5F90F /* HighScoreButton.png */; };
+		23CE0D4B18C7198700407110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D4A18C7198700407110 /* Foundation.framework */; };
+		23CE0D4D18C7198700407110 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D4C18C7198700407110 /* CoreGraphics.framework */; };
+		23CE0D4F18C7198700407110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D4E18C7198700407110 /* UIKit.framework */; };
+		23CE0D5518C7198800407110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D5318C7198800407110 /* InfoPlist.strings */; };
+		23CE0D5718C7198800407110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0D5618C7198800407110 /* main.m */; };
+		23CE0D5B18C7198800407110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0D5A18C7198800407110 /* AppDelegate.m */; };
+		23CE0D5E18C7198800407110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D5C18C7198800407110 /* Main.storyboard */; };
+		23CE0D6118C7198800407110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0D6018C7198800407110 /* ViewController.m */; };
+		23CE0D6A18C7198800407110 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D6918C7198800407110 /* XCTest.framework */; };
+		23CE0D6B18C7198800407110 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D4A18C7198700407110 /* Foundation.framework */; };
+		23CE0D6C18C7198800407110 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D4E18C7198700407110 /* UIKit.framework */; };
+		23CE0D7418C7198800407110 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D7218C7198800407110 /* InfoPlist.strings */; };
+		23CE0D7618C7198800407110 /* Duck_JumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE0D7518C7198800407110 /* Duck_JumpTests.m */; };
+		23CE0D8018C7199500407110 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D7F18C7199500407110 /* iAd.framework */; };
+		23CE0D8218C7199D00407110 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23CE0D8118C7199D00407110 /* AudioToolbox.framework */; };
+		23CE0D9418C71A1E00407110 /* Boing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8318C71A1E00407110 /* Boing.wav */; };
+		23CE0D9518C71A1E00407110 /* BrickWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8418C71A1E00407110 /* BrickWall.png */; };
+		23CE0D9618C71A1E00407110 /* Cow.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8518C71A1E00407110 /* Cow.png */; };
+		23CE0D9718C71A1E00407110 /* CowRotated.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8618C71A1E00407110 /* CowRotated.png */; };
+		23CE0D9818C71A1E00407110 /* Duck.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8718C71A1E00407110 /* Duck.png */; };
+		23CE0D9918C71A1E00407110 /* DuckDie.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8818C71A1E00407110 /* DuckDie.png */; };
+		23CE0D9A18C71A1E00407110 /* DuckUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8918C71A1E00407110 /* DuckUp.png */; };
+		23CE0D9B18C71A1E00407110 /* LightningBolt.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8A18C71A1E00407110 /* LightningBolt.png */; };
+		23CE0D9C18C71A1E00407110 /* Play.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8B18C71A1E00407110 /* Play.png */; };
+		23CE0D9F18C71A1E00407110 /* SkateBG2fade.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8E18C71A1E00407110 /* SkateBG2fade.png */; };
+		23CE0DA018C71A1E00407110 /* Trampoline.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D8F18C71A1E00407110 /* Trampoline.png */; };
+		23CE0DA118C71A1E00407110 /* TrashCan.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D9018C71A1E00407110 /* TrashCan.png */; };
+		23CE0DA218C71A1E00407110 /* TrashCanNuc.png in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D9118C71A1E00407110 /* TrashCanNuc.png */; };
+		23CE0DA318C71A1E00407110 /* Quack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D9218C71A1E00407110 /* Quack.wav */; };
+		23CE0DA418C71A1E00407110 /* Wooo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0D9318C71A1E00407110 /* Wooo.wav */; };
+		23CE0DA618C7DF4B00407110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CE0DA518C7DF4B00407110 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23CE0D6D18C7198800407110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23CE0D3F18C7198700407110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23CE0D4618C7198700407110;
+			remoteInfo = "Duck Jump";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2380CC8B18C7E68C00E5F90F /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		2380CC9918C8348900E5F90F /* SettingsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingsButton.png; sourceTree = "<group>"; };
+		2380CC9B18C8355400E5F90F /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		2380CC9D18C84AD600E5F90F /* SoundIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SoundIcon.png; sourceTree = "<group>"; };
+		2380CCA518C9502700E5F90F /* DuckJump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuckJump.png; sourceTree = "<group>"; };
+		2380CCAB18C99F6600E5F90F /* DuckJump2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuckJump2.png; sourceTree = "<group>"; };
+		2380CCAD18CBEA6200E5F90F /* NewBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewBest.png; sourceTree = "<group>"; };
+		2380CCAF18CD47C800E5F90F /* HighScoreButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HighScoreButton.png; sourceTree = "<group>"; };
+		23CE0D4718C7198700407110 /* Duck Jump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Jump.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CE0D4A18C7198700407110 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23CE0D4C18C7198700407110 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		23CE0D4E18C7198700407110 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		23CE0D5218C7198800407110 /* Duck Jump-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duck Jump-Info.plist"; sourceTree = "<group>"; };
+		23CE0D5418C7198800407110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23CE0D5618C7198800407110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23CE0D5818C7198800407110 /* Duck Jump-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Duck Jump-Prefix.pch"; sourceTree = "<group>"; };
+		23CE0D5918C7198800407110 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23CE0D5A18C7198800407110 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23CE0D5D18C7198800407110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23CE0D5F18C7198800407110 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		23CE0D6018C7198800407110 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		23CE0D6818C7198800407110 /* Duck JumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duck JumpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23CE0D6918C7198800407110 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		23CE0D7118C7198800407110 /* Duck JumpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Duck JumpTests-Info.plist"; sourceTree = "<group>"; };
+		23CE0D7318C7198800407110 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		23CE0D7518C7198800407110 /* Duck_JumpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Duck_JumpTests.m; sourceTree = "<group>"; };
+		23CE0D7F18C7199500407110 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		23CE0D8118C7199D00407110 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		23CE0D8318C71A1E00407110 /* Boing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Boing.wav; sourceTree = "<group>"; };
+		23CE0D8418C71A1E00407110 /* BrickWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BrickWall.png; sourceTree = "<group>"; };
+		23CE0D8518C71A1E00407110 /* Cow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cow.png; sourceTree = "<group>"; };
+		23CE0D8618C71A1E00407110 /* CowRotated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CowRotated.png; sourceTree = "<group>"; };
+		23CE0D8718C71A1E00407110 /* Duck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Duck.png; sourceTree = "<group>"; };
+		23CE0D8818C71A1E00407110 /* DuckDie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuckDie.png; sourceTree = "<group>"; };
+		23CE0D8918C71A1E00407110 /* DuckUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuckUp.png; sourceTree = "<group>"; };
+		23CE0D8A18C71A1E00407110 /* LightningBolt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightningBolt.png; sourceTree = "<group>"; };
+		23CE0D8B18C71A1E00407110 /* Play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Play.png; sourceTree = "<group>"; };
+		23CE0D8E18C71A1E00407110 /* SkateBG2fade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkateBG2fade.png; sourceTree = "<group>"; };
+		23CE0D8F18C71A1E00407110 /* Trampoline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trampoline.png; sourceTree = "<group>"; };
+		23CE0D9018C71A1E00407110 /* TrashCan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashCan.png; sourceTree = "<group>"; };
+		23CE0D9118C71A1E00407110 /* TrashCanNuc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashCanNuc.png; sourceTree = "<group>"; };
+		23CE0D9218C71A1E00407110 /* Quack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Quack.wav; sourceTree = "<group>"; };
+		23CE0D9318C71A1E00407110 /* Wooo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Wooo.wav; sourceTree = "<group>"; };
+		23CE0DA518C7DF4B00407110 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23CE0D4418C7198700407110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0D8218C7199D00407110 /* AudioToolbox.framework in Frameworks */,
+				23CE0D8018C7199500407110 /* iAd.framework in Frameworks */,
+				23CE0D4D18C7198700407110 /* CoreGraphics.framework in Frameworks */,
+				23CE0D4F18C7198700407110 /* UIKit.framework in Frameworks */,
+				23CE0D4B18C7198700407110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CE0D6518C7198800407110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0D6A18C7198800407110 /* XCTest.framework in Frameworks */,
+				23CE0D6C18C7198800407110 /* UIKit.framework in Frameworks */,
+				23CE0D6B18C7198800407110 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23CE0D3E18C7198700407110 = {
+			isa = PBXGroup;
+			children = (
+				23CE0D5018C7198800407110 /* Duck Jump */,
+				23CE0D6F18C7198800407110 /* Duck JumpTests */,
+				23CE0D4918C7198700407110 /* Frameworks */,
+				23CE0D4818C7198700407110 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23CE0D4818C7198700407110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D4718C7198700407110 /* Duck Jump.app */,
+				23CE0D6818C7198800407110 /* Duck JumpTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23CE0D4918C7198700407110 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D8118C7199D00407110 /* AudioToolbox.framework */,
+				23CE0D7F18C7199500407110 /* iAd.framework */,
+				23CE0D4A18C7198700407110 /* Foundation.framework */,
+				23CE0D4C18C7198700407110 /* CoreGraphics.framework */,
+				23CE0D4E18C7198700407110 /* UIKit.framework */,
+				23CE0D6918C7198800407110 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23CE0D5018C7198800407110 /* Duck Jump */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D5918C7198800407110 /* AppDelegate.h */,
+				23CE0D5A18C7198800407110 /* AppDelegate.m */,
+				23CE0D5C18C7198800407110 /* Main.storyboard */,
+				23CE0D5F18C7198800407110 /* ViewController.h */,
+				23CE0D6018C7198800407110 /* ViewController.m */,
+				23CE0DA518C7DF4B00407110 /* Images.xcassets */,
+				23CE0D5118C7198800407110 /* Supporting Files */,
+			);
+			path = "Duck Jump";
+			sourceTree = "<group>";
+		};
+		23CE0D5118C7198800407110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D5218C7198800407110 /* Duck Jump-Info.plist */,
+				2380CC9B18C8355400E5F90F /* BackButton.png */,
+				23CE0D8318C71A1E00407110 /* Boing.wav */,
+				23CE0D8418C71A1E00407110 /* BrickWall.png */,
+				23CE0D8518C71A1E00407110 /* Cow.png */,
+				23CE0D8618C71A1E00407110 /* CowRotated.png */,
+				23CE0D8718C71A1E00407110 /* Duck.png */,
+				23CE0D8818C71A1E00407110 /* DuckDie.png */,
+				2380CCA518C9502700E5F90F /* DuckJump.png */,
+				2380CCAB18C99F6600E5F90F /* DuckJump2.png */,
+				23CE0D8918C71A1E00407110 /* DuckUp.png */,
+				2380CCAF18CD47C800E5F90F /* HighScoreButton.png */,
+				23CE0D8A18C71A1E00407110 /* LightningBolt.png */,
+				2380CCAD18CBEA6200E5F90F /* NewBest.png */,
+				23CE0D8B18C71A1E00407110 /* Play.png */,
+				2380CC8B18C7E68C00E5F90F /* PlayButton.png */,
+				2380CC9918C8348900E5F90F /* SettingsButton.png */,
+				23CE0D8E18C71A1E00407110 /* SkateBG2fade.png */,
+				2380CC9D18C84AD600E5F90F /* SoundIcon.png */,
+				23CE0D8F18C71A1E00407110 /* Trampoline.png */,
+				23CE0D9018C71A1E00407110 /* TrashCan.png */,
+				23CE0D9118C71A1E00407110 /* TrashCanNuc.png */,
+				23CE0D9218C71A1E00407110 /* Quack.wav */,
+				23CE0D9318C71A1E00407110 /* Wooo.wav */,
+				23CE0D5318C7198800407110 /* InfoPlist.strings */,
+				23CE0D5618C7198800407110 /* main.m */,
+				23CE0D5818C7198800407110 /* Duck Jump-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23CE0D6F18C7198800407110 /* Duck JumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D7518C7198800407110 /* Duck_JumpTests.m */,
+				23CE0D7018C7198800407110 /* Supporting Files */,
+			);
+			path = "Duck JumpTests";
+			sourceTree = "<group>";
+		};
+		23CE0D7018C7198800407110 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23CE0D7118C7198800407110 /* Duck JumpTests-Info.plist */,
+				23CE0D7218C7198800407110 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23CE0D4618C7198700407110 /* Duck Jump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CE0D7918C7198800407110 /* Build configuration list for PBXNativeTarget "Duck Jump" */;
+			buildPhases = (
+				23CE0D4318C7198700407110 /* Sources */,
+				23CE0D4418C7198700407110 /* Frameworks */,
+				23CE0D4518C7198700407110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duck Jump";
+			productName = "Duck Jump";
+			productReference = 23CE0D4718C7198700407110 /* Duck Jump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23CE0D6718C7198800407110 /* Duck JumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23CE0D7C18C7198800407110 /* Build configuration list for PBXNativeTarget "Duck JumpTests" */;
+			buildPhases = (
+				23CE0D6418C7198800407110 /* Sources */,
+				23CE0D6518C7198800407110 /* Frameworks */,
+				23CE0D6618C7198800407110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23CE0D6E18C7198800407110 /* PBXTargetDependency */,
+			);
+			name = "Duck JumpTests";
+			productName = "Duck JumpTests";
+			productReference = 23CE0D6818C7198800407110 /* Duck JumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23CE0D3F18C7198700407110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Jake Carson";
+				TargetAttributes = {
+					23CE0D4618C7198700407110 = {
+						DevelopmentTeam = 7Z4R9EN2L5;
+					};
+					23CE0D6718C7198800407110 = {
+						TestTargetID = 23CE0D4618C7198700407110;
+					};
+				};
+			};
+			buildConfigurationList = 23CE0D4218C7198700407110 /* Build configuration list for PBXProject "Duck Jump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23CE0D3E18C7198700407110;
+			productRefGroup = 23CE0D4818C7198700407110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23CE0D4618C7198700407110 /* Duck Jump */,
+				23CE0D6718C7198800407110 /* Duck JumpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23CE0D4518C7198700407110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0DA218C71A1E00407110 /* TrashCanNuc.png in Resources */,
+				23CE0DA318C71A1E00407110 /* Quack.wav in Resources */,
+				2380CC9E18C84AD600E5F90F /* SoundIcon.png in Resources */,
+				2380CCAC18C99F6600E5F90F /* DuckJump2.png in Resources */,
+				2380CC8C18C7E68C00E5F90F /* PlayButton.png in Resources */,
+				23CE0D9918C71A1E00407110 /* DuckDie.png in Resources */,
+				23CE0DA118C71A1E00407110 /* TrashCan.png in Resources */,
+				23CE0D9418C71A1E00407110 /* Boing.wav in Resources */,
+				23CE0D9518C71A1E00407110 /* BrickWall.png in Resources */,
+				23CE0D9B18C71A1E00407110 /* LightningBolt.png in Resources */,
+				23CE0D9818C71A1E00407110 /* Duck.png in Resources */,
+				23CE0D9A18C71A1E00407110 /* DuckUp.png in Resources */,
+				2380CC9A18C8348900E5F90F /* SettingsButton.png in Resources */,
+				23CE0DA618C7DF4B00407110 /* Images.xcassets in Resources */,
+				23CE0D9718C71A1E00407110 /* CowRotated.png in Resources */,
+				2380CCAE18CBEA6200E5F90F /* NewBest.png in Resources */,
+				23CE0D9618C71A1E00407110 /* Cow.png in Resources */,
+				2380CC9C18C8355400E5F90F /* BackButton.png in Resources */,
+				23CE0D9C18C71A1E00407110 /* Play.png in Resources */,
+				23CE0D5518C7198800407110 /* InfoPlist.strings in Resources */,
+				2380CCB018CD47C800E5F90F /* HighScoreButton.png in Resources */,
+				23CE0DA018C71A1E00407110 /* Trampoline.png in Resources */,
+				2380CCA618C9502700E5F90F /* DuckJump.png in Resources */,
+				23CE0DA418C71A1E00407110 /* Wooo.wav in Resources */,
+				23CE0D9F18C71A1E00407110 /* SkateBG2fade.png in Resources */,
+				23CE0D5E18C7198800407110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CE0D6618C7198800407110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0D7418C7198800407110 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23CE0D4318C7198700407110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0D6118C7198800407110 /* ViewController.m in Sources */,
+				23CE0D5B18C7198800407110 /* AppDelegate.m in Sources */,
+				23CE0D5718C7198800407110 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23CE0D6418C7198800407110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CE0D7618C7198800407110 /* Duck_JumpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23CE0D6E18C7198800407110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23CE0D4618C7198700407110 /* Duck Jump */;
+			targetProxy = 23CE0D6D18C7198800407110 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23CE0D5318C7198800407110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CE0D5418C7198800407110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		23CE0D5C18C7198800407110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CE0D5D18C7198800407110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23CE0D7218C7198800407110 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23CE0D7318C7198800407110 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23CE0D7718C7198800407110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23CE0D7818C7198800407110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23CE0D7A18C7198800407110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck Jump/Duck Jump-Prefix.pch";
+				INFOPLIST_FILE = "Duck Jump/Duck Jump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FCE87686-71C1-4494-B882-9DC4CA6F6D01";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		23CE0D7B18C7198800407110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jacob Magid (7Z4R9EN2L5)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck Jump/Duck Jump-Prefix.pch";
+				INFOPLIST_FILE = "Duck Jump/Duck Jump-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "FCE87686-71C1-4494-B882-9DC4CA6F6D01";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		23CE0D7D18C7198800407110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duck Jump.app/Duck Jump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck Jump/Duck Jump-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Duck JumpTests/Duck JumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		23CE0D7E18C7198800407110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Duck Jump.app/Duck Jump";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Duck Jump/Duck Jump-Prefix.pch";
+				INFOPLIST_FILE = "Duck JumpTests/Duck JumpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23CE0D4218C7198700407110 /* Build configuration list for PBXProject "Duck Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CE0D7718C7198800407110 /* Debug */,
+				23CE0D7818C7198800407110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CE0D7918C7198800407110 /* Build configuration list for PBXNativeTarget "Duck Jump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CE0D7A18C7198800407110 /* Debug */,
+				23CE0D7B18C7198800407110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23CE0D7C18C7198800407110 /* Build configuration list for PBXNativeTarget "Duck JumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23CE0D7D18C7198800407110 /* Debug */,
+				23CE0D7E18C7198800407110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23CE0D3F18C7198700407110 /* Project object */;
+}
